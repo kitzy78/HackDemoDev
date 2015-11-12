@@ -1,0 +1,26 @@
+﻿@model Hack.Ui.Models.HomeIndexViewModel
+@{
+    ViewBag.Title = "Hackathon Demo";
+    Layout = "~/Views/Shared/_LayoutHome.cshtml";
+}
+
+<div class="gradient">
+    <div class="container-fluid">
+        <div class="page-header">
+            <h1 class="text-center">
+                <span class="glyphicon glyphicon-wrench white" aria-hidden="true">
+                    <strong>HACKATHON</strong>
+                </span>
+            </h1>
+            <div class="text-center">
+                <p>
+                    An automated deployment solution utilizing <a href="https://www.vagrantup.com/">Vagrant</a>, <a href="https://www.jetbrains.com/teamcity/">TeamCity</a> and <a href="https://octopus.com/">Octopus Deploy</a>
+                </p>
+                <p>Ui Version: @Model.UiVersion</p>
+                <p>Api Version: @Model.ApiVersion</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--<img class="displayed" src="~/Content/images/MobileGlassShop.png" />-->
+<img class="displayed" src="~/Content/images/97d4ddcd3138c9d40878df3231ad41a9_400x400.jpeg" />

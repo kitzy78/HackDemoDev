@@ -1,0 +1,46 @@
+﻿body {
+    background-color: black;
+}
+
+.gradient {
+  background: -webkit-radial-gradient(#485563 10%, #29323c 90%); /* Chrome 10+, Saf5.1+ */
+  background:         radial-gradient(#485563 10%, #29323c 90%); /* W3C */
+}
+
+.white {
+    color: white;
+}
+
+.page-header strong {
+    color: white;
+}
+
+.page-header p {
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: red;
+}
+
+#particles {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    top: 0;                        
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    z-index: -2;
+}
+
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
